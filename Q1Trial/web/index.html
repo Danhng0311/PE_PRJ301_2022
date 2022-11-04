@@ -1,0 +1,25 @@
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="enroll" method="post">
+            Student Name: <input type="text" name="txtStName" /><br>
+            Financial Source: 
+            <input type="radio" name="txtFSource" value="Goverment"/>Government
+            <input type="radio" name="txtFSource" value="Grant"/>Grant
+            <input type="radio" name="txtFSource" value="Self-Sponsor"/>Self-Sponsor<br>        
+            Level:
+            <select name="txtLevel">
+                <option value="Bsc">Bsc</option>
+                <option value="Master">Master</option>
+                <option value="PhD">PhD</option>
+            </select><br>
+            DOE: <input type="date" name="txtDOE"/><br>
+            <input type="submit" value="Save"/>
+        </form>
+    </body>
+</html>
